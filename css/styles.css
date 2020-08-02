@@ -1,3 +1,124 @@
+* {
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: aquamarine;
+    max-width: 100vw;
+}
+
+label,
+p,
+.copy {
+    color: rgb(134, 134, 134);
+}
+
+header {
+    background-color: rgb(44, 59, 71);
+    padding: 5px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.section-1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.border {
+    height: auto;
+    width: 100%;
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
+    padding: 2px;
+}
+
+.section-2 label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.section-2 input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(229, 233, 233);
+}
+
+::placeholder {
+    text-align: right;
+    font-style: italic;
+}
+
+.section-2 select {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(229, 233, 233);
+}
+
+#zip {
+    width: auto;
+}
+
+hr {
+    border: solid black 2px;
+}
+
+#news,
+#format,
+#other {
+    margin-left: 0;
+    margin-bottom: auto;
+}
+
+.section-3 label {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(229, 233, 233);
+}
+
+button {
+    width: 100%;
+    background: rgb(50, 203, 171);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.copy {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px){
+    .container {
+        width: 65%;
+        margin: auto;
+        margin-bottom: 500px;
+    }
 }
