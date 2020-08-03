@@ -1,5 +1,5 @@
 * {
-    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
 }
 
@@ -135,9 +135,9 @@ button {
     }
     .section-2 input,
     .section-2 select {
-      display: inline-block;
-      float: left;
-      width: 70%;
-      margin-bottom: 15px;
+        display: inline-block;
+        float: left;
+        width: 70%;
+        margin-bottom: 15px;
     }
 }
