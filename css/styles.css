@@ -55,6 +55,10 @@ header h1 {
     background: rgb(229, 233, 233);
 }
 
+input:focus {
+    background-color: yellow;
+  }
+
 ::placeholder {
     text-align: right;
     font-style: italic;
@@ -120,5 +124,20 @@ button {
         width: 65%;
         margin: auto;
         margin-bottom: 500px;
+    }
+
+    .section-2 label{
+        display: inline-block;
+        float: left;
+        clear: left;
+        width: 30%;
+        text-align: left;
+    }
+    .section-2 input,
+    .section-2 select {
+      display: inline-block;
+      float: left;
+      width: 70%;
+      margin-bottom: 15px;
     }
 }
