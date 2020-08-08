@@ -57,19 +57,24 @@ h2 {
     padding: 15px;
     border-radius: 5px;
     border: none;
-    background: rgb(229, 233, 233);
+    background-color: rgb(229, 233, 233);
 }
 
 fieldset {
     border: none;
 }
 
+input,
+textarea {
+    transition: background-color 1s ease-in-out;
+  }
+
 input:focus {
-    background-color: whitesmoke;
+    background-color: #ffc13b;
   }
 
 textarea:focus {
-    background-color: whitesmoke;
+    background-color: #ffc13b;
   }
 
 ::placeholder {
@@ -118,7 +123,7 @@ textarea {
 
 button {
     width: 100%;
-    background: #ffc13b;
+    background: #ff6e40;
     border: none;
     border-radius: 5px;
     color: white;
