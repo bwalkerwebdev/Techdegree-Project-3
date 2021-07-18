@@ -1,0 +1,19 @@
+{
+  "name": "techdegree-project-3",
+  "version": "1.0.0",
+  "description": "A responsive registration form. Notice that the labels move above the input fields when the window is resized. Basic HTML is used to create the form as well as CSS for styling. Project three of Treehouse Techdegree.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bwalkerwebdev/Techdegree-Project-3.git"
+  },
+  "author": "Brian Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bwalkerwebdev/Techdegree-Project-3/issues"
+  },
+  "homepage": "https://github.com/bwalkerwebdev/Techdegree-Project-3#readme"
+}
