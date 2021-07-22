@@ -21,18 +21,6 @@
 
 ### ✨ [Demo](https://bwalkerwebdev.github.io/Techdegree-Project-3/)
 
-## Install
-
-```sh
-npm install
-```
-
-## Run tests
-
-```sh
-npm run test
-```
-
 ## Author
 
 👤 **Brian Walker**
